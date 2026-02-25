@@ -1,4 +1,4 @@
-# 🛡️ ISO Shield — ISO 27001 Security Audit & Risk Platform
+#  ISO Shield — ISO 27001 Security Audit & Risk Platform
 
 A comprehensive web-based platform for ISO 27001 security auditing, risk assessment, and compliance management.
 
@@ -6,7 +6,7 @@ Built with **Next.js 14** + **Supabase** + **Tailwind CSS**.
 
 ---
 
-## 🗂 Phase Structure
+##  Phase Structure
 
 | Phase | Modules | 
 |-------|---------|
@@ -16,7 +16,7 @@ Built with **Next.js 14** + **Supabase** + **Tailwind CSS**.
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. Clone & Install
 
@@ -101,15 +101,15 @@ iso-shield/
 
 ---
 
-## 🎯 Features (Phase 1)
+## Features (Phase 1)
 
-### 🔐 Authentication
+###  Authentication
 - Email/password login & registration
 - Session management via Supabase Auth
 - Route protection middleware
 - Password strength indicator
 
-### 🏢 Organization Profile
+###  Organization Profile
 - Complete org setup form
 - Business sector classification
 - System type selection (Web, Cloud, Mobile, etc.)
@@ -117,7 +117,7 @@ iso-shield/
 - Risk appetite setting
 - Audit scope definition
 
-### 🗂 Asset Inventory
+###  Asset Inventory
 - Asset CRUD operations
 - Asset types: Hardware, Software, Data, Service, Personnel, Facility
 - CIA Triad scoring (Confidentiality, Integrity, Availability) 1–5 scale
@@ -125,7 +125,7 @@ iso-shield/
 - Auto-classified criticality: Critical / High / Medium / Low
 - Asset metadata: owner, location, vendor, version, IP
 
-### 🐞 Vulnerability Assessment (per asset)
+###  Vulnerability Assessment (per asset)
 - All 10 **OWASP Top 10 2021** vulnerabilities pre-seeded
 - Per-asset vulnerability selection
 - Likelihood scoring (1–5)
@@ -134,7 +134,7 @@ iso-shield/
 - Risk levels: Critical (≥20), High (12–19), Medium (6–11), Low (2–5)
 - Remediation guidance per vulnerability
 
-### 📊 Risk Matrix
+###  Risk Matrix
 - **5×5 Risk Heatmap** visualization
 - Risk distribution charts
 - All risks tabular view with filters
@@ -143,7 +143,7 @@ iso-shield/
 
 ---
 
-## 🗄 Database Schema
+##  Database Schema
 
 | Table | Description |
 |-------|-------------|
@@ -157,7 +157,7 @@ All tables use **Row Level Security (RLS)** — users only see their organizatio
 
 ---
 
-## 🎨 Design System
+##  Design System
 
 - **Color**: Deep navy/slate dark theme with indigo brand accents
 - **Font**: Space Grotesk (display) + DM Mono (code)
@@ -166,7 +166,7 @@ All tables use **Row Level Security (RLS)** — users only see their organizatio
 
 ---
 
-## 📋 Environment Variables
+##  Environment Variables
 
 | Variable | Description |
 |----------|-------------|
@@ -176,14 +176,14 @@ All tables use **Row Level Security (RLS)** — users only see their organizatio
 
 ---
 
-## 🔜 Phase 2 Preview
+##  Phase 2 Preview
 
 - ISO 27001 control checklist (114 controls across 14 domains)
 - Control status: Compliant / Partial / Non-compliant / N/A
 - Evidence upload & management
 - Compliance percentage dashboard
 
-## 🔜 Phase 3 Preview
+##  Phase 3 Preview
 
 - Auto-generated audit findings from risk data
 - Executive PDF report generation
